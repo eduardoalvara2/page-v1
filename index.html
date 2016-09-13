@@ -20,268 +20,290 @@
 
         <link media="all" type="text/css" rel="stylesheet" href="./index_files/font-awesome.min.css">
 
-        <link rel="stylesheet/less" type="text/css" href="./index_files/global.less"><style type="text/css" id="less:eduardoalvarado-less-global">@import 'http://localhost/eduardoalvarado/css/lato-fonts.css';
-@import 'http://localhost/eduardoalvarado/css/consolas-fonts.css';
-html,
-body {
-  position: relative;
-  height: 100%;
-  background-color: #de3624;
-  color: #f5f5f5;
-  font-family: "Lato";
-}
-html a,
-body a,
-html a:visited,
-body a:visited {
-  color: #de3624;
-}
-html a:hover,
-body a:hover,
-html a:active,
-body a:active {
-  color: #f5f5f5;
-}
-#wrap {
-  min-height: 100%;
-  padding-bottom: 15px;
-  background-color: #de3624;
-}
-footer {
-  height: 0px;
-  margin-top: 0px;
-  width: 100%;
-  position: relative;
-  clear: both;
-  background-color: #000;
-  color: #f5f5f5;
-  text-align: center;
-}
-header {
-  background-color: #000;
-  font-family: "Consolas";
-}
-header .logo {
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  transform: translateX(-50%);
-  height: 677px;
-  transition: height 1s ease;
-}
-header .logo .stuff {
-  position: absolute;
-  display: block;
-  text-align: center;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
-header .logo .stuff img {
-  width: 75%;
-}
-header .logo .stuff h1 {
-  margin-bottom: 0;
-}
-header .menu {
-  top: 95%;
-}
-.menu {
-  position: relative;
-  width: 100%;
-  left: 2%;
-  text-align: center;
-  color: #de3624;
-  font-family: "Consolas Bold";
-}
-.menu a {
-  text-decoration: none;
-}
-#content .row {
-  height: 677px;
-  background-color: #f5f5f5;
-  color: #101010;
-  transition: height 1s ease;
-  /*.rightSide::-webkit-scrollbar {
-      display: none;
-    }*/
-}
-#content .row table {
-  width: 100%;
-}
-#content .row .leftSide {
-  text-align: center;
-}
-#content .row .leftSide h1 {
-  position: relative;
-  display: block;
-  font-family: "Consolas Bold";
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-  margin: 0;
-}
-#content .row .rightSide {
-  text-align: justify;
-  overflow-y: auto;
-}
-#content .row .rightSide h3 {
-  font-family: "Consolas";
-}
-#content .row .menu {
-  left: 0%;
-  top: 88%;
-}
-#content .row:nth-child(1) .leftSide {
-  background-color: #de3624;
-  color: #f5f5f5;
-}
-#content .row:nth-child(1) .leftSide .menu,
-#content .row:nth-child(1) .leftSide .menu a {
-  color: #101010;
-}
-#content .row:nth-child(1) .rightSide {
-  padding: 4% 5%;
-}
-#content .row:nth-child(1) #eduardo-alvarado-pic {
-  z-index: 5;
-  position: relative;
-  height: 0;
-  overflow: visible;
-}
-#content .row:nth-child(1) #eduardo-alvarado-pic img {
-  width: 8%;
-  margin-top: 3%;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  transform: translateX(-50%);
-  position: absolute;
-}
-#content .row:nth-child(2) .leftSide .menu,
-#content .row:nth-child(2) .leftSide .menu a {
-  color: #101010;
-}
-#content .row:nth-child(2) .rightSide {
-  background-color: #000;
-  color: #f5f5f5;
-  overflow-x: hidden;
-  padding: 0;
-}
-#content .row:nth-child(2) .rightSide .section {
-  position: relative;
-  padding: 0;
-}
-#content .row:nth-child(2) .rightSide .section div {
-  display: block;
-  background-color: rgba(0, 0, 0, 0.35);
-  position: absolute;
-  top: 0%;
-  width: 100%;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-  /*.horizontal-center;*/
-  z-index: 2;
-  font-family: "Consolas";
-  text-align: center;
-  padding: 0 1ex;
-}
-#content .row:nth-child(2) .rightSide .section div h4 {
-  margin: 10px 0 0 0;
-}
-#content .row:nth-child(2) .rightSide .section div p {
-  text-decoration: underline;
-}
-#content .row:nth-child(2) .rightSide .section img {
-  position: relative;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  transform: translateX(-50%);
-  /*width:100%;*/
-  height: 100%;
-}
-#content .row:nth-child(2) .rightSide .section a {
-  color: #f5f5f5;
-}
-#content .row:nth-child(3) .leftSide {
-  background-color: #000;
-  color: #f5f5f5;
-}
-#content .row:nth-child(3) .rightSide {
-  padding: 4% 5%;
-}
-#content .row:nth-child(3) .rightSide a {
-  color: #101010;
-}
-#content .row:nth-child(3) .rightSide .email {
-  color: #de3624;
-}
-#content .row:nth-child(4) {
-  background-color: transparent;
-}
-#content .row:nth-child(4) .logoEnd {
-  color: #f5f5f5;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  transform: translateX(-50%);
-  height: 677px;
-  transition: height 1s ease;
-  height: 100%;
-}
-#content .row:nth-child(4) .logoEnd .stuff {
-  position: absolute;
-  display: block;
-  text-align: center;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
-#content .row:nth-child(4) .logoEnd .stuff img {
-  width: 75%;
-}
-#content .row:nth-child(4) .logoEnd .stuff h1 {
-  /*margin-bottom: 0;*/
-}
-@media screen and (min-width: 768px) {
-  .leftSide,
-  .rightSide {
-    height: 100%;
-  }
-}
-@media screen and (max-width: 768px) {
-  .leftSide {
-    height: 20%;
-  }
-  .rightSide {
-    height: 80%;
-  }
-}
-/* MIXINS */
-.vertical-center {
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
-.horizontal-center {
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  transform: translateX(-50%);
-}
-</style>
-        
-    <style type="text/css">
-:root #content > #center > .dose > .dosesingle,
-:root #content > #right > .dose > .dosesingle
-{ display: none !important; }</style></head>
+        <link rel="stylesheet/less" type="text/css" href="./index_files/global.less"><style type="text/css" id="less:eduardoalvarado-less-global">
+        @font-face {
+            font-family: Lato;
+            src: url('index_files/fonts/Lato-Reg.ttf');
+        }
+
+        @font-face {
+            font-family: Lato Bold;
+            src: url('index_files/fonts/Lato-Bol.ttf');
+        }
+
+        @font-face {
+            font-family: Lato Light;
+            src: url('index_files/fonts/Lato-Lig.ttf');
+        }
+        @font-face {
+            font-family: Consolas;
+            src: url('index_files/fonts/consola.ttf');
+        }
+
+        @font-face {
+            font-family: Consolas Bold;
+            src: url('index_files/fonts/consolab.ttf');
+        }
+        html,
+        body {
+          position: relative;
+          height: 100%;
+          background-color: #de3624;
+          color: #f5f5f5;
+          font-family: "Lato";
+        }
+        html a,
+        body a,
+        html a:visited,
+        body a:visited {
+          color: #de3624;
+        }
+        html a:hover,
+        body a:hover,
+        html a:active,
+        body a:active {
+          color: #f5f5f5;
+        }
+        #wrap {
+          min-height: 100%;
+          padding-bottom: 15px;
+          background-color: #de3624;
+        }
+        footer {
+          height: 0px;
+          margin-top: 0px;
+          width: 100%;
+          position: relative;
+          clear: both;
+          background-color: #000;
+          color: #f5f5f5;
+          text-align: center;
+        }
+        header {
+          background-color: #000;
+          font-family: "Consolas";
+        }
+        header .logo {
+          left: 50%;
+          -webkit-transform: translateX(-50%);
+          -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+          height: 677px;
+          transition: height 1s ease;
+        }
+        header .logo .stuff {
+          position: absolute;
+          display: block;
+          text-align: center;
+          top: 50%;
+          -webkit-transform: translateY(-50%);
+          -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+        }
+        header .logo .stuff img {
+          width: 75%;
+        }
+        header .logo .stuff h1 {
+          margin-bottom: 0;
+        }
+        header .menu {
+          top: 95%;
+        }
+        .menu {
+          position: relative;
+          width: 100%;
+          left: 2%;
+          text-align: center;
+          color: #de3624;
+          font-family: "Consolas Bold";
+        }
+        .menu a {
+          text-decoration: none;
+        }
+        #content .row {
+          height: 677px;
+          background-color: #f5f5f5;
+          color: #101010;
+          transition: height 1s ease;
+          /*.rightSide::-webkit-scrollbar {
+              display: none;
+            }*/
+        }
+        #content .row table {
+          width: 100%;
+        }
+        #content .row .leftSide {
+          text-align: center;
+        }
+        #content .row .leftSide h1 {
+          position: relative;
+          display: block;
+          font-family: "Consolas Bold";
+          top: 50%;
+          -webkit-transform: translateY(-50%);
+          -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+          margin: 0;
+        }
+        #content .row .rightSide {
+          text-align: justify;
+          overflow-y: auto;
+        }
+        #content .row .rightSide h3 {
+          font-family: "Consolas";
+        }
+        #content .row .menu {
+          left: 0%;
+          top: 88%;
+        }
+        #content .row:nth-child(1) .leftSide {
+          background-color: #de3624;
+          color: #f5f5f5;
+        }
+        #content .row:nth-child(1) .leftSide .menu,
+        #content .row:nth-child(1) .leftSide .menu a {
+          color: #101010;
+        }
+        #content .row:nth-child(1) .rightSide {
+          padding: 4% 5%;
+        }
+        #content .row:nth-child(1) #eduardo-alvarado-pic {
+          z-index: 5;
+          position: relative;
+          height: 0;
+          overflow: visible;
+        }
+        #content .row:nth-child(1) #eduardo-alvarado-pic img {
+          width: 8%;
+          margin-top: 3%;
+          left: 50%;
+          -webkit-transform: translateX(-50%);
+          -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+          position: absolute;
+        }
+        #content .row:nth-child(2) .leftSide .menu,
+        #content .row:nth-child(2) .leftSide .menu a {
+          color: #101010;
+        }
+        #content .row:nth-child(2) .rightSide {
+          background-color: #000;
+          color: #f5f5f5;
+          overflow-x: hidden;
+          padding: 0;
+        }
+        #content .row:nth-child(2) .rightSide .section {
+          position: relative;
+          padding: 0;
+        }
+        #content .row:nth-child(2) .rightSide .section div {
+          display: block;
+          background-color: rgba(0, 0, 0, 0.35);
+          position: absolute;
+          top: 0%;
+          width: 100%;
+          top: 50%;
+          -webkit-transform: translateY(-50%);
+          -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+          /*.horizontal-center;*/
+          z-index: 2;
+          font-family: "Consolas";
+          text-align: center;
+          padding: 0 1ex;
+        }
+        #content .row:nth-child(2) .rightSide .section div h4 {
+          margin: 10px 0 0 0;
+        }
+        #content .row:nth-child(2) .rightSide .section div p {
+          text-decoration: underline;
+        }
+        #content .row:nth-child(2) .rightSide .section img {
+          position: relative;
+          left: 50%;
+          -webkit-transform: translateX(-50%);
+          -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+          /*width:100%;*/
+          height: 100%;
+        }
+        #content .row:nth-child(2) .rightSide .section a {
+          color: #f5f5f5;
+        }
+        #content .row:nth-child(3) .leftSide {
+          background-color: #000;
+          color: #f5f5f5;
+        }
+        #content .row:nth-child(3) .rightSide {
+          padding: 4% 5%;
+        }
+        #content .row:nth-child(3) .rightSide a {
+          color: #101010;
+        }
+        #content .row:nth-child(3) .rightSide .email {
+          color: #de3624;
+        }
+        #content .row:nth-child(4) {
+          background-color: transparent;
+        }
+        #content .row:nth-child(4) .logoEnd {
+          color: #f5f5f5;
+          left: 50%;
+          -webkit-transform: translateX(-50%);
+          -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+          height: 677px;
+          transition: height 1s ease;
+          height: 100%;
+        }
+        #content .row:nth-child(4) .logoEnd .stuff {
+          position: absolute;
+          display: block;
+          text-align: center;
+          top: 50%;
+          -webkit-transform: translateY(-50%);
+          -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+        }
+        #content .row:nth-child(4) .logoEnd .stuff img {
+          width: 75%;
+        }
+        #content .row:nth-child(4) .logoEnd .stuff h1 {
+          /*margin-bottom: 0;*/
+        }
+        @media screen and (min-width: 768px) {
+          .leftSide,
+          .rightSide {
+            height: 100%;
+          }
+        }
+        @media screen and (max-width: 768px) {
+          .leftSide {
+            height: 20%;
+          }
+          .rightSide {
+            height: 80%;
+          }
+        }
+        /* MIXINS */
+        .vertical-center {
+          top: 50%;
+          -webkit-transform: translateY(-50%);
+          -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+        }
+        .horizontal-center {
+          left: 50%;
+          -webkit-transform: translateX(-50%);
+          -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+        }
+        </style>
+                
+            <style type="text/css">
+        :root #content > #center > .dose > .dosesingle,
+        :root #content > #right > .dose > .dosesingle
+        { display: none !important; }</style></head>
     <body>
     <div id="wrap" class="container-fluid" style="height:100%;">
         <header class="row"> <!-- Row Header -->
